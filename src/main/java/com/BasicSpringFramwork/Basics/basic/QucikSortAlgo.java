@@ -2,7 +2,9 @@ package com.BasicSpringFramwork.Basics.basic;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
-@Component
+import org.springframework.stereotype.Service;
+
+@Service // business logic
 @Qualifier("quick")
 public class QucikSortAlgo implements SortAlgorithm{
 

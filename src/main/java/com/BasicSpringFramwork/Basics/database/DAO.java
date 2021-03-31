@@ -2,8 +2,9 @@ package com.BasicSpringFramwork.Basics.database;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 
-@Component
+@Repository // configure database
 public class DAO {
 
     @Autowired

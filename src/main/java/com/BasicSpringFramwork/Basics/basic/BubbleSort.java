@@ -2,8 +2,9 @@ package com.BasicSpringFramwork.Basics.basic;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
-@Component
+@Service // business logic
 @Qualifier("bubble")
 //@Primary // will use this bean not quickSort bean
 public class BubbleSort implements SortAlgorithm{
